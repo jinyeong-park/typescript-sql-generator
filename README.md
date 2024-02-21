@@ -1,0 +1,1 @@
+# typescript-sql-generator
