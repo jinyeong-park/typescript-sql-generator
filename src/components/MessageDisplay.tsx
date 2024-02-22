@@ -1,11 +1,18 @@
 import React from "react";
 
-const MessageDisplay = () => {
+interface MessageDisplayProps {
+  message: {
+    role: string;
+    content: string;
+  };
+}
+
+const MessageDisplay = ({ message }: MessageDisplayProps) => {
   return (
     <div className="message-display">
-      <p id="icon">x</p>
-      <p>user</p>
-      <p>message</p>
+      <p id="icon">*</p>
+      {/* <p>{message.role}</p> */}
+      <p>{message.content}</p>
     </div>
   );
 };

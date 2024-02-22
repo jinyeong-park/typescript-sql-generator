@@ -13,7 +13,7 @@ app.use(cors())
 app.use(express.json())
 
 
-const API_KEY = process.env.OPENAI_API_KEY
+const API_KEY = process.env.API_KEY
 
 const openai = new OpenAI({
     apiKey: API_KEY // This is also the default, can be omitted

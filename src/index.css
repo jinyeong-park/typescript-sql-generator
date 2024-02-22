@@ -38,6 +38,14 @@ p, input {
 
 }
 
+.code-output {
+    margin: 20px;
+}
+
+.code-output p {
+    color: rgb(255, 189, 45)
+}
+
 .buttons {
     width: 100%;
     height: 35px;
